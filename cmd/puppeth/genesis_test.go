@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/core"
+	"github.com/d3vk0n/go-funcoin/core"
 )
 
 // Tests the go-ethereum to Aleth chainspec conversion for the Stureby testnet.
