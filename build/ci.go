@@ -175,7 +175,7 @@ func main() {
 		doAndroidArchive(os.Args[2:])
 	case "xcode":
 		doXCodeFramework(os.Args[2:])
-	case "xgo":
+	case "karalabe/xgo-1.13.1":
 		doXgo(os.Args[2:])
 	case "purge":
 		doPurge(os.Args[2:])
@@ -985,7 +985,7 @@ func doXgo(cmdline []string) {
 	env := build.Env()
 
 	// Make sure xgo is available for cross compilation
-	gogetxgo := goTool("get", "github.com/karalabe/xgo")
+	gogetxgo := goTool("get", "github.com/xero-official/xgo")
 	build.MustRun(gogetxgo)
 
 	// If all tools building is requested, build everything the builder wants

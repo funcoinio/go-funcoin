@@ -135,11 +135,11 @@ geth-windows: geth-windows-386 geth-windows-amd64
 	@ls -ld $(GOBIN)/geth-windows-*
 
 geth-windows-386:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/386 -v ./cmd/geth
+	build/env.sh go run build/ci.go karalabe/xgo-1.13.1 -- --go=$(GO) --targets=windows/386 -v ./cmd/geth
 	@echo "Windows 386 cross compilation done:"
 	@ls -ld $(GOBIN)/geth-windows-* | grep 386
 
 geth-windows-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/amd64 -v ./cmd/geth
+	build/env.sh go run build/ci.go karalabe/xgo-1.13.1 -- --go=$(GO) --targets=windows/amd64 -v ./cmd/geth
 	@echo "Windows amd64 cross compilation done:"
 	@ls -ld $(GOBIN)/geth-windows-* | grep amd64
