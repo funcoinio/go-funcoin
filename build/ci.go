@@ -985,7 +985,7 @@ func doXgo(cmdline []string) {
 	env := build.Env()
 
 	// Make sure xgo is available for cross compilation
-	gogetxgo := goTool("get", "github.com/xero-official/xgo")
+	gogetxgo := goTool("get", "github.com/crazy-max/xgo")
 	build.MustRun(gogetxgo)
 
 	// If all tools building is requested, build everything the builder wants
