@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/d3vk0n/go-funcoin/common"
+	"github.com/d3vk0n/go-funcoin/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

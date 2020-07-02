@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/d3vk0n/go-funcoin/common"
+	"github.com/d3vk0n/go-funcoin/core/types"
+	"github.com/d3vk0n/go-funcoin/log"
+	"github.com/d3vk0n/go-funcoin/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/d3vk0n/go-funcoin/rlp"
 )
 
 // Entry is implemented by known node record entry types.

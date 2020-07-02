@@ -27,14 +27,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/d3vk0n/go-funcoin/common/mclock"
+	"github.com/d3vk0n/go-funcoin/crypto"
+	"github.com/d3vk0n/go-funcoin/ethdb"
+	"github.com/d3vk0n/go-funcoin/log"
+	"github.com/d3vk0n/go-funcoin/p2p"
+	"github.com/d3vk0n/go-funcoin/p2p/discv5"
+	"github.com/d3vk0n/go-funcoin/p2p/enode"
+	"github.com/d3vk0n/go-funcoin/rlp"
 )
 
 const (

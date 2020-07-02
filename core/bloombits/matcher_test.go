@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/d3vk0n/go-funcoin/common"
 )
 
 const testSectionSize = 4096

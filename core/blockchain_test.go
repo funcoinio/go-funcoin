@@ -26,16 +26,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/d3vk0n/go-funcoin/common"
+	"github.com/d3vk0n/go-funcoin/consensus"
+	"github.com/d3vk0n/go-funcoin/consensus/ethash"
+	"github.com/d3vk0n/go-funcoin/core/rawdb"
+	"github.com/d3vk0n/go-funcoin/core/state"
+	"github.com/d3vk0n/go-funcoin/core/types"
+	"github.com/d3vk0n/go-funcoin/core/vm"
+	"github.com/d3vk0n/go-funcoin/crypto"
+	"github.com/d3vk0n/go-funcoin/ethdb"
+	"github.com/d3vk0n/go-funcoin/params"
 )
 
 // So we can deterministically seed different blockchains

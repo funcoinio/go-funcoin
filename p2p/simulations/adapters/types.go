@@ -26,13 +26,13 @@ import (
 	"strconv"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/d3vk0n/go-funcoin/crypto"
+	"github.com/d3vk0n/go-funcoin/log"
+	"github.com/d3vk0n/go-funcoin/node"
+	"github.com/d3vk0n/go-funcoin/p2p"
+	"github.com/d3vk0n/go-funcoin/p2p/enode"
+	"github.com/d3vk0n/go-funcoin/p2p/enr"
+	"github.com/d3vk0n/go-funcoin/rpc"
 )
 
 // Node represents a node in a simulation network which is created by a

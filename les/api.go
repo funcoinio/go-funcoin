@@ -19,7 +19,7 @@ package les
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/d3vk0n/go-funcoin/common/hexutil"
 )
 
 var (
